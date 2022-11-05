@@ -1,0 +1,349 @@
+body {
+    background-color: #252f34;
+}
+
+.main-color {
+    color: crimson;
+}
+
+
+/* nav */
+.navbar {
+    background-color: #28282d;
+    position: fixed;
+}
+
+.navbar-brand {
+    color: crimson;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: crimson;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    transition: color 2s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: crimson;
+}
+
+/* home */
+header {
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    display: block;
+}
+
+element.style {
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.social-icon i {
+    transition: background-color 2s;
+}
+
+.social-icon i:hover {
+    background-color: crimson;
+}
+
+.title {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.title-e {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.skill-mf {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.title-2 {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.lead {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+#services h1,
+h6 {
+    color: #ffffff;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line {
+    width: 40px;
+    height: 5px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.services-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.services-box .services-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.services-box .ico-circle {
+    transition: all 500ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-box .ico-circle i {
+    line-height: 0;
+    font-size: 40px;
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #28282d;
+    display: block;
+}
+
+.services-content {
+    margin-top: 20px;
+}
+
+.ico-circle:hover {
+    background-color: crimson;
+    transition-delay: 0.1s;
+}
+
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(238, 46, 46);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: crimson
+    }
+}
+
+.counter-box {
+    color: #fff;
+    text-align: center;
+}
+
+.counter-ico {
+    margin-bottom: 1rem;
+}
+
+.counter-ico .ico-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #28282d;
+}
+.title-a {
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.suptitle-a{
+    color: #fff;
+}
+.line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: crimson;
+    background-color:#252F34;
+    border: none;
+}
+.skill-mf {
+    font-weight: 600;
+    color: white;
+    font-size: 1rem;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color:crimson ;
+    transition: var(--bs-progress-bar-transit)
+}
+.title-box-2 {
+    margin-bottom: 3rem;
+}
+.title-left {
+    font-size: 2rem;
+    position: relative;
+    color: #fff;
+}
+.title-left::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: crimson;
+    width: 100px;
+    bottom: -12px;
+}
+.button[type="submit"] {
+    color: rgb(255, 255, 255);
+    background: crimson;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 10px 24px;
+    transition: all 0.4s ease 0s;
+}
+.form input {
+    padding: 10px 15px;
+}
+.form input, .form textarea {
+    box-shadow: none;
+    font-size: 14px;
+    border-radius: 0px;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    color:#fff;
+    list-style-type: none;
+
+}
+.list-ico {
+    line-height: 2;
+}
+.fa-location-dot:before, .fa-map-marker-alt:before {
+color: crimson;
+}
+.fa-mobile:before {color: crimson;
+}
+.fa-envelope:before{
+    color: crimson;
+
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.socials {
+    padding: 1.5rem 0px;
+}
+.social ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: white 0px 0px 0px 3px;
+    border-radius: 50%;
+    margin: 0px 15px 0px 0px;
+    transition: all 500ms ease 0s;
+}
